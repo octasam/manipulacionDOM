@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulacion del DOM</title>
+    <script src="./js/main2.js" async defer></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+    <div class="main container">
+        <h1 id='title1'>Manipulacion del DOM</h1>
+        <h2 class='subtitulo'>Eventos</h2>
+        <h3 class='subtitulo'>DOM + JS</h3>
+        <label for="name">Nombre</label>
+        <input id="name" type="text" name="username" value="">
+        <label for="edad">Edad</label>
+        <input id="edad" type="number" name="ageEntrada" value="">
+        <label for="description">Descripcion</label>
+        <input id="description" type="text" name="descriptionEntrada" value="">
+
+        <button id="ProfileBtn">Actualizar/Crear perfil</button>
+    </div>
+
+    <div class="profile container">
+        <h2 id="username"></h2>
+        <h3 id="age"></h3>
+        <p id="mail"></p>
+        <ul id="fav-films">Favorite Films:</ul>
+    </div>
+
+    <div id="profiles" class="profiles container">
+        <h2 id="username"></h2>
+        <h3 id="age"></h3>
+        <p id="mail"></p>
+        <ul id="fav_music"></ul>
+    </div>
+</body>
+</html>
